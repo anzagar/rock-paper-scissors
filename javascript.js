@@ -69,6 +69,11 @@ function playGame() {
   }
 
   console.log("Final Score! [Human:", humanScore, "] [Computer:", computerScore, "]");
+  if (humanScore < computerScore ) {
+    console.log("Bow down to your Overlord, meatbag!");
+  } else {
+    console.log("Clankers have been defeated! For now...");
+  }
 }
 
 playGame();
